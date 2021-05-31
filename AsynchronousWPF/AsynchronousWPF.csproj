@@ -55,22 +55,14 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="..\AsynchronousWPFCore\Tools\IOOperation.cs">
-      <Link>Tools\IOOperation.cs</Link>
-    </Compile>
-    <Compile Include="..\AsynchronousWPFCore\Tools\RelayCommand.cs">
-      <Link>Tools\RelayCommand.cs</Link>
-    </Compile>
-    <Compile Include="..\AsynchronousWPFCore\ViewModels\AsynchronousViewModel.cs">
-      <Link>ViewModels\AsynchronousViewModel.cs</Link>
-    </Compile>
-    <Compile Include="..\AsynchronousWPFCore\ViewModels\ViewModelBase.cs">
-      <Link>ViewModels\ViewModelBase.cs</Link>
-    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Tools\IOOperation.cs" />
+    <Compile Include="Tools\RelayCommand.cs" />
+    <Compile Include="ViewModels\AsynchronousViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
     <Compile Include="Views\AsynchronousView.xaml.cs">
       <DependentUpon>AsynchronousView.xaml</DependentUpon>
     </Compile>
@@ -107,5 +99,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

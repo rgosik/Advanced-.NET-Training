@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2000
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvancedCSharp", "AdvancedCSharp\AdvancedCSharp.csproj", "{6C410C0B-E123-4210-8DE9-FF95396F42FA}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PluginAssemblies", "PluginAssemblies", "{52A3C7AC-4A95-4A44-86E0-ABDEE0DBC906}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldPlugin", "HelloWorldPlugin\HelloWorldPlugin.csproj", "{35AA3453-58F9-46B8-88A4-B95CDCD59CC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousWPF", "AsynchronousWPF\AsynchronousWPF.csproj", "{C7CBA285-8C4B-4318-B450-902C804BAB24}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +51,10 @@ Global
 		{35AA3453-58F9-46B8-88A4-B95CDCD59CC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35AA3453-58F9-46B8-88A4-B95CDCD59CC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35AA3453-58F9-46B8-88A4-B95CDCD59CC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CBA285-8C4B-4318-B450-902C804BAB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CBA285-8C4B-4318-B450-902C804BAB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CBA285-8C4B-4318-B450-902C804BAB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CBA285-8C4B-4318-B450-902C804BAB24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
